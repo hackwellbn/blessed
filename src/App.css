@@ -14,6 +14,8 @@
   text-decoration: none;
   text-transform: capitalize;
   font-family: "Outfit", sans-serif;
+  /* animation: fadeInText 1.5s ease forwards; */
+
 }
 html {
   background: var(--light-color);

@@ -2,7 +2,7 @@
   background: url(./assets/blogbg.svg);
   background-position: center;
   background-size: cover;
-  padding: 20px;
+  padding: 40px 20px;
   position: relative;
   min-height: 50vw;
   text-align: center;
@@ -21,7 +21,7 @@
   text-align: center;
   width: 100%;
   padding: 5px;
-  gap: 30px;
+  gap: 20px;
 }
 .tip-content {
   background: #fff;
@@ -29,6 +29,7 @@
   border-radius: 10px;
   align-items: center;
   min-height: 300px;
+  margin-bottom: 20px;
 }
 .tip-content:hover {
   background-color: rgba(215, 174, 187, 0.9);
@@ -53,7 +54,7 @@
   grid-template-columns: 1fr 3fr 1fr;
   padding-left: 20px;
   padding-right: 50px;
-  padding: 20px;
+  padding: 40px 20px;
   position: relative;
   min-height: 50vw;
   line-height: 1.6;
@@ -92,21 +93,37 @@ li {
   margin: 10px;
 }
 .look {
-  text-align: left;
+  text-align: center;
 }
 .steps {
   margin-top: 20px;
   line-height: 1.6;
   min-height: 100px;
+  margin-bottom: 20px;
 }
 .ppe-list {
   font-size: 20px;
-  list-style-type: lower-greek;
-  margin-left: 80px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 .welding-container img {
-  width: 400px;
+  max-width: 100%;
   border-radius: 10px;
+  height: auto;
+}
+.ppe-list li {
+  margin-bottom: 10px; /* Add margin between list items */
+}
+
+.tips,
+.know-how {
+  background-size: cover;
+}
+
+.welding-ppe {
+  padding: 40px 20px; /* Adjust padding */
+  margin-top: 40px; /* Add margin top for better separation */
 }
 
 hr {
@@ -123,6 +140,16 @@ hr:hover {
 
 /* breakpoints */
 @media screen and (max-width: 768px) {
+  .tips,
+  .know-how,
+  .welding-ppe {
+    padding: 30px 10px; /* Adjust padding for smaller screens */
+  }
+
+  .tip-content {
+    font-size: 18px; /* Decrease font size */
+  }
+
   .welding-ppe .welding-container {
     display: grid;
     grid-template-columns: 1fr;

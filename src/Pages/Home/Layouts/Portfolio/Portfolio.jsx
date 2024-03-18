@@ -50,11 +50,9 @@ const Portfolio = () => {
           us today and make your dreams possible.
         </p>
 
-        <a className="anchor-but" href="#contacts">
-          <button className="btn">click Me!</button>
+        <a smooth={true} href="#contact-us">
+          <button className="banner-btn btn">contact us </button>
         </a>
-        <a className="anchor-but" href="#contacts" scroll="smooth"></a>
-
         <Link to="/Blogs" smooth={true} duration={500}>
           Blogs
         </Link>

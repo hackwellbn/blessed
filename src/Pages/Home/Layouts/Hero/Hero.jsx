@@ -8,11 +8,24 @@ const Hero = () => {
       <section className="hero-banner">
         <div className="banner-section-text-area">
           <h2>
-            Discover our Metal <span className="span-linear">designs that</span>{" "}
+            Unleash the Spark: <span className="span-linear">Precision</span>{" "}
           </h2>
-          <h3>bring your impossible to possible</h3>
-            <a smooth={true} href="#about-us" ><button className="banner-btn btn">about Us{" "}</button>
-            </a>
+          <h3> Welding Solutions Tailored for You</h3>
+          <p className="intro-text">
+            Welcome to a World of Craftsmanship and Precision. Our welding
+            services ignite possibilities, merging expertise with innovation to
+            deliver flawless results. Whether it's intricate metalwork or robust
+            structural welding, we fuse skill with dedication, ensuring every
+            project shines with durability and excellence. Step into our realm
+            of welding mastery, where every weld tells a story of craftsmanship
+            and quality.
+          </p>
+          <a smooth={true} href="#about-us">
+            <button className="banner-btn btn">about Us </button>
+          </a>
+          <a smooth={true} href="#contact-us">
+            <button className="banner-btn btn">contact us </button>
+          </a>
         </div>
       </section>
       <div className="Reasons">

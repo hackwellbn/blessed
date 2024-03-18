@@ -1,80 +1,30 @@
-.whole-services {
-    text-align: center;
-    font-size: 4rem;
-    background: hwb(180 89% 3%);
-    min-height: 60vh;
-  }
-  
-  .our-services {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-  
-  .our-services h4 {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 0.5em 0.5em; */
-    /* flex-basis: 31%; */
-  }
-  
-  .card-body {
-    min-height: 300px;
-    text-align: center;
-    color: #7d7b7b;
-    background-color: #eddae8;
-    border-radius: 10px;
-  }
-  .card-body:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  @media (max-width: 768px) {
-    .whole-services {
-      min-height: calc(100vh + 20vh);
-    }
-    .cards {
-      text-align: center;
-      display: block;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  }
-  .card-body {
-    width: 400px;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .card-body p {
-    font-size: 1.25rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding: 0.5em 0.5em;
-  }
-  
-  .card-text ul {
-    list-style: none;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.13rem;
-    padding-left: 20px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-  }
-  .explore-btn{
-   text-align: left; 
-   
-  }
-  
+.Our-services{
+  text-align: center;
+}
+.services-container{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Responsive grid layout */
+  gap: 15px;
+  margin: 10px;
+
+}
+
+.services-cards{
+  border: 1px solid rgb(148, 148, 159);
+  border-radius: 10px;
+}
+
+.services-cards:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.services-content ul{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.services-content ul li{
+  margin-bottom: 10px;
+}

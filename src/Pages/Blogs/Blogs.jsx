@@ -3,10 +3,8 @@ import "./Blogs.css";
 import Footer from "../../Components/Footer/Footer";
 import ppe_image from "./assets/ppes.jpg";
 import kofia from "./assets/kofia.png";
-import blue_print from "./assets/blue_print.png";
 
 const Blogs = () => {
-
   return (
     <div className="blogs">
       <section className="tips">
@@ -47,7 +45,6 @@ const Blogs = () => {
               should include measurements, angles, and specifications for the
               door's dimensions and features. Consider factors such as material
               thickness, type of welding process, and joint configurations.
-              <img src={blue_print} alt="" width="400" />
             </li>
             <li>
               <strong>Material Selection:</strong> Choose the appropriate
@@ -136,14 +133,14 @@ const Blogs = () => {
               <li>Flux Cored Arc Welding (FCAW)</li>
             </p>
             <p className="look">
-              some of the factors contributing to their dominance include:{'\n'}
+              some of the factors contributing to their dominance include:{"\n"}
             </p>
             <ul>
-              {'\n'}
+              {"\n"}
               <li>industrial demand</li>
               <li>easy to learn exceptional for (TIG)</li>
               <li>Affordibility of DIY enthusiasts</li>
-              <li>when using TIG very high  quality indeed is key </li>
+              <li>when using TIG very high quality indeed is key </li>
             </ul>
           </ol>
           <div></div>
