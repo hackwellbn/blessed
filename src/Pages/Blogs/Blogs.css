@@ -1,0 +1,134 @@
+.tips {
+  background: url(./assets/blogbg.svg);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  position: relative;
+  min-height: 50vw;
+  text-align: center;
+  line-height: 1.6;
+  gap: 15px;
+}
+.tips h3 {
+  font-size: 30px;
+}
+
+.cards_1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  gap: 30px;
+}
+.tip-content {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  min-height: 300px;
+}
+.tip-content:hover {
+  background-color: rgba(215, 174, 187, 0.9);
+  color: #fff;
+}
+
+/* breakpoints */
+@media screen and (max-width: 768px) {
+  .cards_1 {
+    display: block;
+  }
+  .tip-content {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+}
+
+/* know how */
+.know-how {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding: 20px;
+  position: relative;
+  min-height: 50vw;
+  line-height: 1.6;
+  font-size: 20px;
+}
+ol {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+/* breakpoints */
+@media screen and (max-width: 768px) {
+  /* know how */
+  .know-how {
+    display: block;
+    padding: 20px;
+    position: relative;
+    min-height: 50vw;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+}
+.welding-ppe {
+  padding: 20px;
+}
+
+.welding-ppe .welding-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  margin: 10px;
+}
+.look {
+  text-align: left;
+}
+.steps {
+  margin-top: 20px;
+  line-height: 1.6;
+  min-height: 100px;
+}
+.ppe-list {
+  font-size: 20px;
+  list-style-type: lower-greek;
+  margin-left: 80px;
+}
+.welding-container img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+hr {
+  width: 60px;
+  background-color: green;
+  height: 8px;
+}
+hr:hover {
+  content: "";
+  width: 400px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+/* breakpoints */
+@media screen and (max-width: 768px) {
+  .welding-ppe .welding-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    margin: 10px;
+  }
+}

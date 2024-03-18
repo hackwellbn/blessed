@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+  --light-color: #f9ecff;
+  --dark-color: rgba(90, 69, 255, 1);
+  --white-color: #fff;
+  --dark-blue-color: rgba(14, 15, 36, 1);
+  --anchor-color: hsla(100px, 50%, 100%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Outfit", sans-serif;
+}
+html {
+  background: var(--light-color);
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  background: var(--light-color);
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  width: 30px;
+  background: var(--dark-blue-color);
+}
+
+a {
+  text-decoration: none;
+  color: #7d7b7b;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+}
+.btn {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  margin-top: 20px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  transition: ease-in 1.4s;
+  cursor: pointer;
+}
+
+span {
+  color: #f9004d;
+  font-size: 1.505rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #7d7b7b;
+}

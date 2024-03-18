@@ -1,0 +1,44 @@
+.section_about-us {
+    background: #f9ecff;
+    text-align: center;  
+}
+
+.about-us {
+    text-align: center;
+    color: #504f4f;
+    padding: 100px 0;
+    display: flex;
+    z-index: -1;
+    width: 100%;
+  
+}
+
+.text-area {
+    line-height: 1.6;
+    padding: 20px;
+    position: relative;
+    font-size: 1.0rem;
+    text-align: center;
+    color: rgb(98, 98, 98);
+    gap: 80px;
+
+}
+
+.My_p {
+    padding: 30px;
+
+}
+
+.bg .img_left {
+    color: rgb(0, 0, 0, 0.1);
+    float: left;
+    bottom: 1px;
+    margin-right: 5px;
+}
+
+.img_right {
+    color: rgb(0, 0, 0, 0.1);
+    float: right;
+    bottom: 1px;
+
+}

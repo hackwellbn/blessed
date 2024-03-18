@@ -1,0 +1,127 @@
+
+
+/* what makes us different*/
+.dif-section {
+    background-color: #f9ecff;
+     background-image: url(../../assets/sq.svg);
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .dif-section .dif-title {
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 1.6;
+    color: #444a57;
+  }
+  
+  .dif-col {
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    height: auto;
+    display: flex;
+    min-height: 60vh;
+    padding: 30px; 
+  
+  
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+  
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    /* CSS Reset */
+    body,
+    h1,
+    h2,
+    h3,
+    p,
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  
+  
+  
+  
+    .dif-section {
+      background-color: #f4f4f4;
+      height: auto;
+      width: 100%;
+      margin: 0;
+    }
+  
+    .dif-col {
+      align-items: center;
+      text-align: center;
+      margin-top: 30px;
+      display: block;
+      justify-content: space-between;
+      gap: 15px;
+  
+    }
+  }
+  
+  
+  
+  .dif-content {
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    padding: 5px;
+  }
+  
+  .dif-content i {
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 60px;
+  }
+  
+  
+  
+  
+  .dif-content:hover {
+    background-color: rgba(215, 174, 187, 0.9);
+    color: #fff;
+  
+  
+  
+  }
+  
+  .dif-content:hover .dif-title {
+    color: #fff;
+  
+  }
+  
+  
+  .dif-content:hover h3 {
+    color: #fff;
+  }
+  
+  .dif-content:hover p {
+    color: #fff;
+  }
+  
+  .us{
+    font-size: 2rem;
+  }
+  
+  /* end of what distinguishes us */
